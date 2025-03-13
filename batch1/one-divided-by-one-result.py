@@ -1,3 +1,6 @@
 #find the quotient
-a,b=map(int, input("two numbers:").split())
-print(a/b)
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+print(num1 / num2)

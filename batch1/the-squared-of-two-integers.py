@@ -1,3 +1,6 @@
 #raised by number a to the power of number b
-a,b=map(int, input("enter two numbers w/ space in between:").split())
-print(a**b)
+
+num1 = int(input("Enter the base number: "))
+num2 = int(input("Enter the exponent: "))
+
+print(num1 ** num2)
